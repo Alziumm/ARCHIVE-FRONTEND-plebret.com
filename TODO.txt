@@ -1,0 +1,17 @@
+V -> Make english version.
+V -> Make legal page responsive.
+V -> Remake my CV in "DEV" status.
+V -> Add CV Download with "Télécharger mon CV".
+V -> Do blob responsive.
+
+V -> Optimisation :
+    > HTML                                                                      | 122 ko
+    > CSS   (webspider.css / legal.css / style.css)     > Viser -10 à -20%      | 84 ko
+
+V -> Migrate to Django.
+V -> Link Contact form to api.
+
+More : 
+
+X -> Async load on image.
+X -> Skeletton load.

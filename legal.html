@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pierre LEBRET - Portfolio</title>
+
+        <style>
+            .cl{display:none !important;}
+            .lc{position:fixed;top:50%;left:calc(50% - 40px);}
+            .lw{width:auto;height:auto}
+            @font-face{font-family:'Poppins';font-weight: 400;font-display:swap;font-style:normal; src:url("FONT/poppins-regular.woff2") format('woff2');}
+            @font-face{font-family:'Poppins';font-weight: 700;font-display:swap;font-style:normal; src:url("FONT/poppins-bold.woff2") format('woff2');}
+            @font-face{font-family:'Inter';font-weight: 100 900;font-display:swap;font-style:normal; src:url("FONT/inter.woff2") format('woff2');}
+        </style>
+
+        <script>
+            window.addEventListener('load',()=>{
+                document.fonts.ready.then(()=>{
+                    document.getElementById("sdev-content").classList.remove('cl');
+                    document.body.classList.remove('lc');
+                    document.getElementById("sl").classList.add('cl')
+                })
+            });
+        </script>
+
+        <link rel="preload" href= "FONT/poppins-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+        <link rel="preload" href= "FONT/poppins-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="CSS/legal.css"/>
+
+        <link rel="icon" type="img/ico" href="IMG/favicon.ico"/>
+    </head>
+    <body class = "lc mwb">
+        <div id="sl">
+            <div class="lw">
+                <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            </div>
+        </div>
+        <main class = "cl" id = "sdev-content">
+            <nav class="header" id = "sdev-header">
+                <div class="hc hw">
+                    <div class="h" id="sdev-menu"><span></span><span></span><span></span></div>
+                    <ul class="nav-list">
+                        <li class="active">
+                            <a href="/" class = "gradient now" id = "navlink"><strong>root@sdev:~#</strong></a>
+                        </li>
+                        <li>
+                            <a href="/" class = "gradient" id = "navlink">Projets</a>
+                        </li>
+                        <li>
+                            <a href="/" class = "gradient" id = "navlink">Compétences</a>
+                        </li>
+                        <li>
+                            <a href="/" class = "gradient" id = "navlink">Contact</a>
+                        </li>
+                    </ul>
+                    <button id = "changeLanguage" aria-checked="true" class="control__lang" role="switch" type="button">
+                        <span class="change-language">FR</span>
+                        <span class="control__lang_switch">
+                            <span></span>
+                        </span>
+                        <span class="current change-language">EN</span>
+                    </button>
+                </div>
+            </nav>
+            <div class="sac">
+
+                <section class = "main-legal-container">
+
+                    <div class="c">
+                        <h1 class="text mt150">Mentions Légales</h1>
+                    </div>
+
+                    <div class = "legal-content">
+
+                        <div class="content-container">
+
+                            <div class="sous-container">
+
+                                <p class = "bottom-title">
+
+                                    Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site Pierre LEBRET géré par la micro-entreprise Spunky Development l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.
+
+                                </p>
+
+                            </div>
+
+                            <div class="sous-container">
+
+                                <h2>Éditeur :</h2>
+
+                                <p class = "bottom-title">
+
+                                    Site édité par Spunky Development - Micro-Entreprise<br> <br>
+                                    SIRET : En cours d'aquisition au prêt des autorités compétentes Française. <br>
+                                    RCS : En cours d'aquisition au prêt des autorités compétentes Française.  <br>
+                                    Code APE: En cours d'aquisition au prêt des autorités compétentes Française. <br>
+                                    TVA intra-communautaire : En cours d'aquisition au prêt des autorités compétentes Française. <br>
+                                    Siège social : Cidex 128 Chemin Des Courraouts - 06330 Roquefort-Les-Pins - France <br> <br>
+
+                                    Le directeur de la publication du site plebret.com est Monsieur Pierre Lebret, en qualité de dirigeant de Spunky Development.
+
+                                </p>
+
+                            </div>
+
+                            <div class="sous-container">
+
+                                <h2>Hébergement :</h2>
+
+                                <p class = "bottom-title">
+
+                                    Sites hébergés par OVH - SAS au capital de 10 174 560 € <br>
+                                    RCS : Lille Métropole 424 761 419 00045 <br>
+                                    Code APE : 2620Z <br>
+                                    TVA intra-communautaire  : FR 22 424 761 419 <br>
+                                    Siège social : 2 rue Kellermann - 59100 Roubaix - France <br>
+
+                                </p>
+
+                            </div>
+
+                            <div class="sous-container">
+
+                                <h2 class = "top-title">Conditions générales d'utilisation du site :</h2>
+
+                            </div>
+
+                            <div class="sous-container">
+
+                                <h2>Introduction :</h2>
+
+                                <p class = "bottom-title">
+                                    Les présentes mentions légales s’appliquent à toute personne physique qui visite le site web de Pierre LEBRET géré par la micro-entreprise Spunky Development ou l’un de ses sous domaines : <br> <br>
+                                    * https://plebret.com/ <br>
+                                    * https://cdn.plebret.com/ <br>
+                                    * https://spunkydev.com/ <br>
+                                    * https://cdn.spunkydev.com/ <br>
+                                    * https://api.spunkydev.com/ <br>
+                                </p>
+
+                            </div>
+
+                            <div class="sous-container">
+
+                                <h2>Informations contenues dans le site :</h2>
+
+                                <p class = "bottom-title">
+                                    On entend par contenu du site la structure générale, les textes, les images animées ou non, et les sons dont le site est composé. <br><br>
+                                    Spunky Development ne saurait garantir l'exactitude, la complétude ou l'actualité des informations diffusées sur le site. Spunky Development met tout en œuvre pour offrir aux utilisateurs des informations et des outils disponibles et vérifiés, mais ne saurait être tenu pour responsable des erreurs, des omissions et/ou d'une absence de disponibilité des informations et des services. <br><br>
+                                    Toute représentation totale ou partielle de ce site et de son contenu, par quelques procédés que se soient, sans autorisation préalable expresse de Spunky Development, est interdite et constituerait une contrefaçon sanctionnée par les articles L335-2 et suivants du code de la propriété intellectuelle.
+                                </p>
+            
+                            </div>
+            
+                            <div class="sous-container">
+            
+                                <h2>Accès au site :</h2>
+                    
+                                <p class = "bottom-title">
+                                    Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure, interruption programmée ou non et pouvant découler d’une nécessité de maintenance. En cas de modification, interruption ou suspension des services le site https://spunkydev.com ne saurait être tenu responsable.
+                                </p>
+            
+                            </div>
+            
+                            <div class="sous-container">
+            
+                                <h2>Collecte de données personnelles :</h2>
+                                
+                                <p class = "bottom-title">
+            
+                                    Des données personnelles vous concernant, font l'objet d'un traitement automatisé conforme au règlement européen (UE) 2016/679 du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel, et à la loi "Informatique, fichiers et libertés" n° 2018-493 du 20 juin 2018.
+            
+                                    Le responsable du traitement est Spunky Development et les informations recueillies sont destinées à nos services internes et à nos prestataires web. <br><br>
+            
+                                    Pour plus d’informations, veuillez consulter notre <a href = "#privacy-policy">Politique de Confidentialité</a>. <br> <br>
+            
+                                    Pour toute question relative à notre Politique de Confidentialité ou pour exercer vos droits, vous pouvez nous contacter via l’adresse suivante : <br> <br> <a href="mailto:contact@spunkydev.com" target="_blank" rel="noopener noreferrer">contact@spunkydev.com</a> 
+            
+                                </p>
+            
+                            </div>
+            
+                            <div class="sous-container">
+            
+                                <h2>Liens hypertextes externes : </h2>
+                                
+                                <p class = "bottom-title">
+            
+                                    Les liens mis en place depuis le site <a href="https://plebret.com">https://plebret.com</a> vers des sites extérieurs ne sauraient engager la responsabilité de Spunky Development notamment au regard du contenu de ces sites mais également des risques techniques. <br><br>
+            
+                                    Ces sites web disposent de leurs propres conditions d’utilisation, notamment concernant les pratiques de confidentialité ainsi que le traitement des données personnelles, qui peuvent différer de celles de Spunky Development. <br><br>
+                                    
+                                    Spunky Development ne prend aucun engagement concernant ces sites web tiers auxquels l’utilisateur peut avoir accès. Nous vous encourageons à lire attentivement les conditions d’utilisation et la politique de confidentialité de tout site web que vous consultez. <br><br>
+                                    
+                                    De même, Spunky Development n’est en rien responsable des liens hypertextes susceptibles de pointer sur son site. 
+                                </p>
+            
+                            </div>
+            
+                            <div class="sous-container">
+            
+                                <h2>Propriété Intellectuelle :</h2>
+                                
+                                <p class = "bottom-title">
+            
+                                    Les créations réalisées par Spunky Development sont protégées au titre du droit d’auteur conformément aux dispositions des livres I à III du code de la propriété intellectuelle. A ce titre, toute reproduction, représentation, utilisation, adaptation, modification, incorporation, traduction, commercialisation, partielles ou intégrales des éléments contenus dans ce site, sans l’autorisation écrite préalable de Spunky Development, est interdite, sous peine de constituer un délit de contrefaçon de droit d’auteur.
+                                
+                                </p>
+            
+                            </div>
+            
+                            <div class="sous-container">
+            
+                                <h2>Banissement :</h2>
+                                
+                                <p class = "bottom-title">
+            
+                                    Le groupe Spunky Development se réserve le droit de bannir un utilisateur de ses services partiellement ou définitivement si il a été jugé que l'utilisateur a tenté de porté atteinte à la sécurité du Système d'information de l'un des services de Spunky Development.
+                                
+                                </p>
+            
+                            </div>
+
+                            <div class="sous-container">
+            
+                                <h2>Contact :</h2>
+                                
+                                <p class = "bottom-title">
+            
+                                    Toute personne concernée qui justifie de son identité peut nous demander via l’adresse : <a href="mailto:contact@spunkydev.com" target="_blank" rel="noopener noreferrer">contact@spunkydev.com</a> l’accès à ses données personnelles, la rectification, l’effacement de celles-ci, limiter le traitement, s’opposer au traitement et/ou demander la portabilité de ses données personnelles. Toute personne concernée a également le droit d’introduire une réclamation auprès d’une autorité de contrôle.
+                                
+                                </p>
+            
+                            </div>
+            
+                        </div>
+            
+                    </div>
+                    
+                    <div class="c"><h1 class="text" id = "privacy-policy">Politique de confidentialité</h1></div><div class="legal-content"><div class="content-container"><div class="sous-container"><h2>Introduction :</h2><p class="bottom-title">
+
+                        Le site plebret.com géré par la micro-entreprise Spunky Development accorde une grande importance à la confidentialité et à la protection des informations personnelles de ses clients, partenaires et visiteurs de notre site web.
+
+                        Cette politique de confidentialité explique comment nous recueillons, utilisons, partageons et protégeons les données personnelles que vous nous fournissez. Veuillez lire attentivement cette politique pour comprendre nos pratiques en matière de confidentialité. <br><br>
+                        
+                        La présente politique vise à garantir le respect scrupuleux des principes de transparence et de loyauté dans le traitement des données personnelles. En tant que responsable du traitement de ces informations personnelles, Spunky Development assume pleinement sa responsabilité de fournir une information claire et aisément accessible concernant les modalités d'utilisation des informations que nous collectons ou que vous nous transmettez. <br><br>
+                        
+                        Comprenez également que nous sommes susceptibles de mettre à jour la présente politique de confidentialité pour que cette dernière serve toujours au mieux vos intérêts. <br><br>
+                        
+                        Cette politique a été mise à jour pour la dernière fois le : 12/06/2023 à 14:21.
+
+                    </p></div><div class="sous-container"><h2>Informations personnelles collectées :</h2><p class="bottom-title">
+
+                        Lorsque vous faites usage de notre site internet ou des services offerts par Spunky Development, et de manière plus générale, lors de toute interaction avec notre entreprise, vous pouvez être amené(e) à nous communiquer un ensemble d'informations vous concernant, certaines étant susceptibles de vous identifier (ci-après dénommées "Données Personnelles"). Cela peut notamment se produire lorsque vous naviguez sur notre site web, lorsque vous remplissez des formulaires en ligne, lorsque vous participez à nos évènements, lorsque vous vous abonnez à l’un de notre contenue (exemple : Newsletter) ou lorsque vous postulez et/ou vous inscrivez sur l’une des interfaces de connexion utilisateur proposé par Spunky Development. <br><br>
+
+                        La nature et la quantité de données collectées varient en fonction de votre relation avec nos services : <br><br>
+                        
+                        * <strong>Votre nom et vos coordonnées&nbsp;:</strong>  C’est-à-dire l’ensemble des informations à caractère personnelles que vous avez vous même saisit à travers l’un ou plusieurs des formulaires présent sur notre site web. Ces coordonnées comprennent&nbsp;: votre nom, prénom, adresse, adresse email et numéro de téléphone. <br><br>
+                        
+                        * <strong>Les données relatives à votre projet</strong> &nbsp;: Pour rentrer en relation avec nos équipes, nous vous demandons certaines informations concernant votre projet numérique. Ces informations comprennent&nbsp;:
+                        Le nom de votre projet/société, le service proposé par Spunky Development au quel vous voulez faire recours, votre budget pour la réalisation de ce projet et une description de votre projet selon vos propres mots.  <br><br>
+                        
+                        * <strong>Identifiants de connexion</strong> : Désigne l’ensemble des informations dont vous avez besoin pour l’authentification et l’accès à vos espaces personnels.  <br><br>
+                        
+                        * <strong>Informations relatives à votre navigation</strong> : En utilisant notre site web, vous interagissez avec nos serveurs. Lors de cette interaction, nous collectons certaines des informations publiques fournit par votre navigateur web relatives à votre activité&nbsp;: Préférences de navigation, langage et configuration.  <br><br></p></div><div class="sous-container"><h2>Utilisation de cookies :</h2><h3 class="small-title bottom-title">Qu’est-ce qu’un cookie&nbsp;?</h3><p class="bottom-title">
+
+                        Les cookies sont des fichiers texte contenant de petites quantités d'informations qui sont téléchargées sur votre ordinateur ou votre appareil mobile lorsque vous accédez à nos services. Nous utilisons à la fois des cookies de session et des cookies persistants pour vous identifier plus facilement. Un cookie de session est utilisé pour identifier une visite particulière sur notre site. Ces cookies expirent après un court laps de temps, ou lorsque vous fermez votre navigateur après avoir utilisé notre site. Un cookie persistant restera quant-à lui sur votre appareil pendant une période déterminée spécifiée dans le cookie. Nous utilisons ces cookies lorsque nous devons vous identifier sur une période plus longue. Par exemple, lorsque vous nous demandez de vous garder connecté. 
+
+                    </p><h3 class="small-title bottom-title">Cookies utilisés&nbsp;:</h3><p class="bottom-title">
+
+                        La grande majorité des cookies que nous utilisons servent à vous identifier, à sécuriser votre session et à faciliter l’utilisation de nos services. <br><br>  
+
+                        Voici l’intitulé des quatre principaux cookies utilisés par Spunky Development&nbsp;: <br><br>
+
+                        * trusted&nbsp;: Cookie contenant un identifiant unique permettant d’éviter un quelconque vol de session. <br>
+                        * csrftoken&nbsp;: Cookie permettant d’éviter des failles de sécurités importantes. <br>
+                        * sessionid&nbsp;: Cookie contenant l’identifiant de votre session sur notre site web. <br>
+                        * cookiestatus&nbsp;: Cookie ajouté à votre navigateur lorsque vous acceptez l’accord de confidentialité. <br><br>
+
+                        Si l’un de ces quatre cookies venait à être supprimé, l’accès à la majorité des fonctionnalités de nos services seraient compromis.<br>
+                        D'autres cookies peuvent être amenés à être utilisés sur le site, mais nous certifions sur l'honneur qu'aucun cookie n'est utilisé à des fins de tracages publicitaire ou action du même genre.
+
+                    </p><h3 class="small-title bottom-title">Comment gérer mes préférences en matière de cookies&nbsp;?</h3><p class="bottom-title">
+
+                        Vous avez le possibilité d'accepter ou non les cookies sauf pour les cookies strictement nécessaires présenté ci-dessus. Actuellement, Spunky Development n’utilise que les cookies strictement nécessaire au fonctionnement du site web, vous n’avez donc pas besoin de vous soucier de la configuration de ces derniers. <br><br>
+
+                        Vous pouvez également vous opposer à l'enregistrement de tous cookies et autres traceurs en paramétrant les options de confidentialité et/ou de sécurité de votre navigateur. Pour ce faire nous vous invitons à consulter les explications détaillées disponibles sur le site web de l’autorité française en matière de protection des données personnelles : la CNIL (cliquez ici) <br><br>
+
+                        Sachez cependant que l’opposition à tous les cookies via les paramétrages de navigateurs peut conduire à l'altération ou la perte de certains réglages ou informations et à rendre difficile la navigation sur notre site web. 
+
+                    </p></div><div class="sous-container"><h2>Usage de vos données personnelles :</h2><p class="bottom-title">
+
+                        Nous sommes susceptibles d’utiliser vos données personnelles pour les finalités suivantes :  <br><br>
+
+                        * <strong>Exécuter notre contrat avec vous</strong> : Que vous soyez client ou partenaire de Spunky Development, nous traitons vos données dans le cadre de la création de contrats de prestations entre nos deux partis. <br><br>
+                        
+                        * <strong>Les opérations de marketing/communication</strong> : Nous pouvons être amenés à utiliser vos données personnelles afin de vous envoyer des communications relatives à nos activités, conformément à l’intérêt que vous avez exprimé. Il peut s’agir de newsletters, d’invitations à des évènements, etc... Vous pouvez à tout moment nous demander de cesser de vous contacter à des fins marketing en écrivant à l’adresse suivante : <a href="mailto:stop@spunkydev.com" target="_blank" rel="noopener noreferrer">stop@spunkydev.com</a>.</a><br><br>
+                        
+                        * <strong>Résoudre un litige</strong> : Nous pouvons être amenés à traiter vos données personnelles pour répondre à des demandes ou défendre nos droits dans le cadre d’une action en justice. <br><br>
+
+                        * <strong>A des fins statistiques, de suivi qualité, d’accréditations et classement</strong> : Pour améliorer la qualité de nos services et les performances de nos services en général, nous sommes susceptibles de traiter vos données personnelles et vous soumettre des enquêtes pour réaliser des statistiques ou des rapports globaux. <br><br>
+
+                        * <strong>La sécurité</strong>: Spunky Development est également amenée à traiter vos données en vue d’assurer la sécurité des biens et des personnes. <br><br>
+
+                        * <strong>La sécurité du Système d’information de Spunky Development</strong> : Votre activité sur le système d’information est enregistrée dans un journal de connexions. Les journaux informatiques peuvent être analysés pour plusieurs finalités distinctes : <br><br>
+
+                        - L’établissement de statistiques pour optimiser, surveiller et faire évoluer les systèmes d’information. <br>
+                        - La détection et l’analyse d’anomalies ou d’incidents de sécurité. <br>
+                        - La mise à disposition des journaux sur réquisition judiciaire. <br>
+                        - La détection des abus et des fraudes (usages contraires à la réglementation, ou pouvant engager la responsabilité de Spunky Development). <br><br>
+
+                        Pour l’ensemble de ces finalités, vos données pourront être traitées afin d’être complétées et mises à jour dans le respect des principes de l’article 5 du RGPD. <br><br>
+
+                        Pour les finalités non prévues ci-dessus, vos données pourront être totalement anonymisées avant de pouvoir être utilisées dans le cadre de ces nouvelles finalités.
+                    </p>
+                    
+                    </div>
+                    <div class="sous-container"><h2>Partage de vos données avec des tiers :</h2><p class="bottom-title">
+
+                        Spunky Development s’engage à ne partager vos données personnelles à aucun tiers mise à part&nbsp;: <br><br>
+                        
+                        * <strong>Nos filiales et nos partenaires de confiance</strong> partageant les mêmes valeurs que nous. <br><br>
+
+                        * <strong>Les autorités légales et administratives</strong>. Pour respecter nos obligations légales, en cas d’urgence ou de crise, nous pouvons être amenés à partager certaines de vos données avec les autorités légales, réglementaires ou administratives.
+
+
+                    </p></div>
+                    
+                    <div class="sous-container"><h2>Base légale du traitement de vos données personnelles :</h2><p class="bottom-title">
+
+                        Spunky Development ne collecte, utilise et partage vos données personnelles que conformément à ce que le règlement général sur la protection des données (RGPD)  en vigueur permet. <br><br>
+
+                        Nous pouvons traiter vos données soit: <br><br>
+
+                        * <strong>Parce que vous avez donné votre consentement</strong>. Pour certaines opérations comme les opérations marketing, nous utilisons vos données parce que vous nous y avez autorisés. <br><br>
+
+                        * <strong>Pour exécuter notre contrat avec vous</strong>. Nous traitons vos données pour exécuter le contrat que nous avons avec vous et pour vous fournir les prestations prévues par nos services. <br><br> 
+
+                        * <strong>Pour répondre à une obligation légale</strong>. Dans certains cas, nous avons besoin de collecter ou de conserver certaines informations à votre sujet pour répondre à nos propres obligations légales, par exemple en matière de fiscalité ou de sécurité.
+
+                        * Parce que le traitement est <strong> nécessaire à l’exécution d’une mission d’intérêt public</strong>. <br><br>
+
+                        * Parce que ce traitement est <strong>dans notre intérêt légitime</strong>. Parfois il relève de l’intérêt légitime de Spunky Development de traiter certaines de vos données personnelles. <br><br>
+
+                        * Parce que ce traitement est nécessaire à la sauvegarde <strong> des intérêts vitaux d’une personne</strong>. 
+
+                    </p></div><div class="sous-container"><h2>Conservation de vos données :</h2><p class="bottom-title">
+
+                        Vos données personnelles sont conservées le temps nécessaire à l’accomplissement de la finalité pour laquelle elles ont été collectées ou conformément aux exigences légales. <br><br>
+
+                        La durée de conservation varie selon plusieurs facteurs et notamment : <br><br>
+
+                        * Les besoins des activités de Spunky Development. <br>
+                        * Les exigences contractuelles <br>
+                        * Les obligations légales (Assurances, Fiscalité, Ressources Humaines etc.) <br>
+                        * Les recommandations des autorités de contrôle <br><br>
+
+                        Il est possible que vos données soient conservées au-delà de notre relation contractuelle, par exemple pour défendre nos droits en justice, pour vous fournir des documents que vous n’avez plus en votre possession ou encore pour répondre à nos obligations légales. <br><br>
+                        
+                        Au-delà de la durée prévue, vos données personnelles seront définitivement supprimées.
+
+                    </p></div><div class="sous-container"><h2>Sécurité de vos données :</h2><p class="bottom-title">
+
+                        Nous procédons régulièrement à l'évaluation et à la révision des mesures techniques et organisationnelles mises en place afin d'assurer la sécurité de notre système d'information. Cette démarche vise à prévenir tout risque de perte, d'altération ou de divulgation non autorisée de vos données personnelles.
+
+                    </p></div><div class="sous-container"><h2>Vos droits :</h2><p class="bottom-title">
+
+                        Vos données personnelles vous appartiennent, et à ce titre, vous disposez d’un certain nombre de droits. Conformément aux lois et réglementation relatives à la protection des données personnelles en vigueur, vous disposez d’un droit : <br><br>
+
+                        * <strong>D’accès</strong> : vous avez le droit de savoir quelles données personnelles nous détenons à votre sujet, de les consulter et d’en obtenir une copie. <br><br>
+
+                        * <strong>De rectification</strong> : si vous vous apercevez d’une erreur, vous pouvez à tout moment nous demander de procéder à la rectification des informations incorrectes. <br><br>
+
+                        * <strong>De suppression</strong> : sous certaines conditions, vous pouvez nous demander d’effacer vos données personnelles. Veuillez noter que nous sommes susceptibles de conserver certaines informations vous concernant lorsque les lois et réglementations en vigueur nous l’imposent ou lorsque nous avons un motif légitime de le faire (ex. l’exécution d’un contrat ou en prévention d’une action en justice). <br><br> 
+
+                        * <strong>De limitation</strong> : sous certaines conditions, vous pouvez nous demander de limiter l’utilisation que nous faisons de vos données personnelles, par exemple pendant la durée nécessaire à l’examen d’une demande de rectification. <br><br>
+
+                        * <strong>De portabilité</strong> : vous avez le droit de nous demander de vous transmettre ou de transmettre à un autre responsable de traitement les données personnelles que vous nous avez fourni dans un format structuré, couramment utilisé et lisible par la machine. <br><br>
+
+                        * <strong>D’opposition</strong> : dans certains cas, vous pouvez vous opposer à l’utilisation de vos données personnelles pour certains traitements (ex. des opérations de marketing direct). <br><br>
+
+                        Selon votre demande, nous pourrions être amenés à vous demander de justifier votre identité.
+                    </p></div><div class="sous-container"><h2>Contact et plaintes :</h2><p class="bottom-title">
+
+                        À tout moment, vous pouvez également retirer le consentement que vous nous avez donné pour traiter vos données pour une finalité déterminée. Pour toute question relative à la présente politique ou pour exercer vos droits, vous pouvez nous contacter via l’adresse suivante : <a href="mailto:contact@spunkydev.com " target="_blank" rel="noopener noreferrer">contact@spunkydev.com</a><br><br>
+
+                        Si vous estimez que vos droits n’ont pas été respectés, vous pouvez introduire une réclamation auprès de l’autorité de contrôle compétente : <strong> Commission Nationale de l’Informatique et des Libertés</strong>. <br><br>
+
+                        Via l’URL : <a href="https://www.cnil.fr/fr/plaintes" target = "_blank" rel="noopener noreferrer">https://www.cnil.fr/fr/plaintes</a> <br>
+                        Ou <br>
+                        Via courrier postal : 3 Place de Fontenoy - TSA 80715 - 75334 PARIS CEDEX 07
+
+                    </p></div></div></div>
+                </section>
+                <footer>
+                    <button id = "sdev-top" class = "dn">^</button>
+                    <p class = "gradient">plebret.com © 2024. Tous droits réservés.</p>
+                    <div class = "c">
+                        <a class = "mlegal" href="legal.html">Mentions légales</a>
+                    </div>
+                </footer>
+            </div>
+        </main>
+        <script src = "JS/main.js"></script>
+    </body>
+</html>
